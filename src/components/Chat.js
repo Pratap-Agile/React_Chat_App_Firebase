@@ -34,8 +34,9 @@ function Chat() {
           </div>
         ))}
       </div>
-      <SendMessage scroll={scroll} />
-      <div ref={scroll}></div>
+      <div ref={scroll}>
+        <SendMessage scroll={scroll} />
+      </div>
     </div>
   );
 }
